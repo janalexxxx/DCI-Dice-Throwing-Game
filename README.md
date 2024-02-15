@@ -36,11 +36,13 @@ Use classes to organize your code. Here is a basic outline of how your class str
         - `player1` (class Player)
         - `player2` (class Player)
         - `dices` (Array, class Dice)
-        - `currentRound` (Integer)
-        - `totalRounds` (Integer)
+        - `currentRound` (number)
+        - `totalRounds` (number)
     - Methods
         - `start(numberOfRounds, numberOfDices)`
-            - This method starts the game when calle
+            - This method starts the game when called
+        - `finish()`
+            - This method ends the game when being called
 - `class Player`
     - Properties:
         - `score` (Integer)
