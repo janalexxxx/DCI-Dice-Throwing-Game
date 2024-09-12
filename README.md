@@ -41,6 +41,8 @@ Use classes to organize your code. Here is a basic outline of how your class str
     - Methods
         - `start(numberOfRounds, numberOfDices)`
             - This method starts the game when called
+        - `playRound(player)`
+            This method starts a round for a given player
         - `finish()`
             - This method ends the game when being called
 - `class Player`
